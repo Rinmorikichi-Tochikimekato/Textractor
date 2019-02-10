@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/db" android:title="dashboard" android:icon="@mipmap/dash"/>
+    <item android:id="@+id/Alldocs" android:title="All docs" android:icon="@mipmap/folder"/>
+    <item android:id="@+id/SharedWithMe" android:title="Shared with me" android:icon="@mipmap/share"/>
+    <item android:id="@+id/Notifications" android:title="Notifications" android:icon="@mipmap/noti"/>
+    <item android:id="@+id/settings" android:title="settings" android:icon="@mipmap/settings"/>
+    <item android:id="@+id/logout" android:title="logout" android:icon="@mipmap/logout"/>
+
+</menu>
