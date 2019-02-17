@@ -1,23 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-vision:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-16.2.0.aar\8ca4d7ec52b6c797093cb613a662cc32\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\3f10b470b9282be7e524dfe33e9fa1aa\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\3549610fa37bd3b1175ba8d92febb755\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\0ba45ba7d04b1e4b383cbfe6c45c364f\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\fa1b46f7cdd55dc99d1dc1f5335a49e1\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:transition:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b9d74ac9ab8b4f9a8c8e0e3a3be78962\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-16.2.0.aar\76444600cbefdc55ebfc79548bfea434\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\b31051dec3a2d0636c11925371850584\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\cf1ecb6681b85525304c9fe0d51a6af7\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\a2f5396b6c8970064f900076873a3199\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\cb1b9f8a0a7e6650b173608c0551ba11\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\af2b1c0a49da7b66b64220c3a5b199e2\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a376d8b5c87d75d745b960140d0bedc1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\bfa9e2b583bb93e9fae6794c994dab1f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\11f8a42b266288f42d1a9c508541fc02\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0186efeffe1f37112734a8f5eae7660c\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\308df277a72e34d38226ed7bf010e34b\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\dac0ecce7f5b99909d8a4a3bd139db1d\AndroidManifest.xml:17:1-31:12
@@ -25,22 +25,22 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\nirwa\.grad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8908f648cc96ff0eed87aefa9022b900\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\86058c62cecf52aeacd30130eea7cb57\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\77fabb927be4b8be8f378d0b4e77903c\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:4:5-29
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:11-69
@@ -53,13 +53,13 @@ ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:7:22-62
 application
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:11:5-39:19
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:11:5-47:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-vision:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-16.2.0.aar\8ca4d7ec52b6c797093cb613a662cc32\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-16.2.0.aar\8ca4d7ec52b6c797093cb613a662cc32\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\3f10b470b9282be7e524dfe33e9fa1aa\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\3f10b470b9282be7e524dfe33e9fa1aa\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\3549610fa37bd3b1175ba8d92febb755\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\3549610fa37bd3b1175ba8d92febb755\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\0ba45ba7d04b1e4b383cbfe6c45c364f\AndroidManifest.xml:22:5-26:19
@@ -68,8 +68,8 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\nirwa\.gradle\
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\fa1b46f7cdd55dc99d1dc1f5335a49e1\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b9d74ac9ab8b4f9a8c8e0e3a3be78962\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b9d74ac9ab8b4f9a8c8e0e3a3be78962\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-16.2.0.aar\76444600cbefdc55ebfc79548bfea434\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-16.2.0.aar\76444600cbefdc55ebfc79548bfea434\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\b31051dec3a2d0636c11925371850584\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\b31051dec3a2d0636c11925371850584\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\cf1ecb6681b85525304c9fe0d51a6af7\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\cf1ecb6681b85525304c9fe0d51a6af7\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\cb1b9f8a0a7e6650b173608c0551ba11\AndroidManifest.xml:22:5-20
@@ -78,8 +78,8 @@ MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\nirwa\.g
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\af2b1c0a49da7b66b64220c3a5b199e2\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a376d8b5c87d75d745b960140d0bedc1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a376d8b5c87d75d745b960140d0bedc1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\bfa9e2b583bb93e9fae6794c994dab1f\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\bfa9e2b583bb93e9fae6794c994dab1f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\11f8a42b266288f42d1a9c508541fc02\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\11f8a42b266288f42d1a9c508541fc02\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0186efeffe1f37112734a8f5eae7660c\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0186efeffe1f37112734a8f5eae7660c\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\308df277a72e34d38226ed7bf010e34b\AndroidManifest.xml:25:5-29:19
@@ -130,12 +130,16 @@ category#android.intent.category.DEFAULT
 ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:33:17-76
 	android:name
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:33:27-73
-meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:36:9-38:35
-	android:value
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:38:13-32
+activity#project.BE.ocr.Main2Activity
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:37:9-43:20
 	android:name
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:37:13-70
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:37:19-48
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:44:9-46:35
+	android:value
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:46:13-32
+	android:name
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:45:13-70
 uses-sdk
 INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
@@ -143,8 +147,8 @@ MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\tr
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:21:5-23:78
-MERGED from [com.google.android.gms:play-services-vision:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-16.2.0.aar\8ca4d7ec52b6c797093cb613a662cc32\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-16.2.0.aar\8ca4d7ec52b6c797093cb613a662cc32\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\3f10b470b9282be7e524dfe33e9fa1aa\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\3f10b470b9282be7e524dfe33e9fa1aa\AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\3549610fa37bd3b1175ba8d92febb755\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\3549610fa37bd3b1175ba8d92febb755\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\0ba45ba7d04b1e4b383cbfe6c45c364f\AndroidManifest.xml:20:5-44
@@ -153,8 +157,8 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\nirwa\.gradle\
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\fa1b46f7cdd55dc99d1dc1f5335a49e1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b9d74ac9ab8b4f9a8c8e0e3a3be78962\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\b9d74ac9ab8b4f9a8c8e0e3a3be78962\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-16.2.0.aar\76444600cbefdc55ebfc79548bfea434\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:16.2.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-16.2.0.aar\76444600cbefdc55ebfc79548bfea434\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\b31051dec3a2d0636c11925371850584\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\b31051dec3a2d0636c11925371850584\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\cf1ecb6681b85525304c9fe0d51a6af7\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\cf1ecb6681b85525304c9fe0d51a6af7\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\a2f5396b6c8970064f900076873a3199\AndroidManifest.xml:20:5-44
@@ -165,8 +169,8 @@ MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\nirwa\.g
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\af2b1c0a49da7b66b64220c3a5b199e2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a376d8b5c87d75d745b960140d0bedc1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a376d8b5c87d75d745b960140d0bedc1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\bfa9e2b583bb93e9fae6794c994dab1f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\bfa9e2b583bb93e9fae6794c994dab1f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\11f8a42b266288f42d1a9c508541fc02\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\11f8a42b266288f42d1a9c508541fc02\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0186efeffe1f37112734a8f5eae7660c\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0186efeffe1f37112734a8f5eae7660c\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\308df277a72e34d38226ed7bf010e34b\AndroidManifest.xml:21:5-23:63
@@ -227,11 +231,11 @@ ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\nirwa\.gr
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\af2b1c0a49da7b66b64220c3a5b199e2\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\bfa9e2b583bb93e9fae6794c994dab1f\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\11f8a42b266288f42d1a9c508541fc02\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\bfa9e2b583bb93e9fae6794c994dab1f\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\11f8a42b266288f42d1a9c508541fc02\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\bfa9e2b583bb93e9fae6794c994dab1f\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\11f8a42b266288f42d1a9c508541fc02\AndroidManifest.xml:24:13-58
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\77fabb927be4b8be8f378d0b4e77903c\AndroidManifest.xml:25:9-27:47
 	android:value

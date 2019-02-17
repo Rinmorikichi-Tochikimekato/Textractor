@@ -801,6 +801,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id activity_main
+id activity_main2
 id add
 id adjust_height
 id adjust_width
@@ -837,7 +838,8 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detected_text
+id detect_button
+id detected_texter
 id disableHome
 id edit_query
 id end
@@ -860,6 +862,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id image_viewer
 id info
 id italic
 id item_touch_helper_previous_elevation
@@ -1003,6 +1006,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout activity_main2
 layout activity_splashscreen
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1104,6 +1108,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string my_love_text
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

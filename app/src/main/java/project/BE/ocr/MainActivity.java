@@ -19,7 +19,9 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.text.TextBlock;
@@ -105,10 +107,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String filename = System.currentTimeMillis() + ".jpg";
 
-                ContentValues values = new ContentValues();
+              /*  ContentValues values = new ContentValues();
                 values.put(MediaStore.Images.Media.TITLE, filename);
                 values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg");
                 imageUri = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
+                */
 
                 Intent intent = new Intent();
                 intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
@@ -117,9 +120,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        detectedTextView = (TextView) findViewById(R.id.detected_text);
-        detectedTextView.setMovementMethod(new ScrollingMovementMethod());
+//        detectedTextView = (TextView) findViewById(R.id.detected_text);
+        Log.i(TAG, "here at 1st place ");
+//        detectedTextView.setMovementMethod(new ScrollingMovementMethod());
     }
+
 
     private void inspectFromBitmap(Bitmap bitmap) {
         TextRecognizer textRecognizer = new TextRecognizer.Builder(this).build();
@@ -158,7 +163,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-            detectedTextView.setText(detectedText);
+            Log.i(TAG, "here at 2nd");
+             Intent intent = new Intent(this,Main2Activity.class);
+            intent.putExtra("data", (CharSequence) detectedText);
+
+            startActivity(intent);
+
+//            detectedTextView.setText(detectedText);
         }
         finally {
             textRecognizer.release();
@@ -197,14 +208,24 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case REQUEST_GALLERY:
                 if (resultCode == RESULT_OK) {
-                    inspect(data.getData());
+//                    inspect(data.getData());
+                    ImageView imageveew=(ImageView) findViewById(R.id.image_viewer);
+                    imageveew.setScaleType(ImageView.ScaleType.CENTER_CROP);
+                    Uri selectedImage = data.getData();
+                    imageveew.setImageURI(selectedImage);
+
                 }
                 break;
             case REQUEST_CAMERA:
                 if (resultCode == RESULT_OK) {
-                    if (imageUri != null) {
-                        inspect(imageUri);
-                    }
+
+//                        inspect(imageUri);
+                        ImageView imageveew=(ImageView) findViewById(R.id.image_viewer);
+                        Uri selectedImage = data.getData();
+
+//                        imageUri = data.getData();
+                        imageveew.setImageURI(selectedImage);
+
                 }
                 break;
             default:
