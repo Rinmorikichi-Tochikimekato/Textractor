@@ -6,23 +6,26 @@
     density="xhdpi"
     format="10"
     plugin-version="3.3.0"
-    timestamp="1550389618888"
+    timestamp="1552927979548"
     token="-2435372715925399166"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="345" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="49" />
     <task
         name="verifier"
-        duration="0" />
+        duration="5" />
 
+    <artifact
+        location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
@@ -31,9 +34,6 @@
         type="SPLIT" />
     <artifact
         location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -62,8 +62,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1550389618888"
+        timestamp="1552927979548"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
@@ -72,9 +75,6 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\nirwa\AndroidStudioProjects\Textractor\app\build\intermediates\split-apk\debug\slices\slice_7.apk"

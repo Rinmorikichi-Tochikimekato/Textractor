@@ -96,12 +96,12 @@
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
@@ -268,12 +268,12 @@
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\af2b1c0a49da7b66b64220c3a5b199e2\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_view_list_nav_layout.xml.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\af2b1c0a49da7b66b64220c3a5b199e2\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_drop.jpg.flat",
@@ -596,12 +596,12 @@
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logout.png.flat",
-        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\mipmap-xhdpi\\logout.png"
-    },
-    {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logout.png.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\mipmap-xhdpi\\logout.png"
     },
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -706,6 +706,10 @@
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\af2b1c0a49da7b66b64220c3a5b199e2\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sample.jpg.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\drawable\\sample.jpg"
     },
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
@@ -944,6 +948,10 @@
         "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\anim\\alpha.xml"
     },
     {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_test2.png.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\drawable\\img_test2.png"
+    },
+    {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -1022,6 +1030,10 @@
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\af2b1c0a49da7b66b64220c3a5b199e2\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\xml\\file_paths.xml"
     },
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_in.xml.flat",
@@ -1178,6 +1190,10 @@
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sample2.jpg.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\drawable\\sample2.jpg"
     },
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
@@ -1468,6 +1484,10 @@
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_start.xml.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\layout\\content_start.xml"
+    },
+    {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\af2b1c0a49da7b66b64220c3a5b199e2\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
@@ -1652,6 +1672,10 @@
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_hindi__main.xml.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\layout\\activity_hindi__main.xml"
+    },
+    {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
@@ -1724,6 +1748,10 @@
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_tamil.jpg.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\drawable\\img_tamil.jpg"
+    },
+    {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
@@ -1734,6 +1762,10 @@
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\86058c62cecf52aeacd30130eea7cb57\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_test_image.png.flat",
+        "source": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\src\\main\\res\\drawable\\test_image.png"
     },
     {
         "merged": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",

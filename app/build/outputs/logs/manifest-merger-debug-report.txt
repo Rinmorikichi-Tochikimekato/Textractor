@@ -1,12 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aeee588abf5b2020e9da5b1801176030\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\3f10b470b9282be7e524dfe33e9fa1aa\AndroidManifest.xml:2:1-9:12
+MERGED from [com.rmtheis:tess-two:9.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\tess-two-9.0.0.aar\ddf88a542fce7e4c910f590f63e9b105\AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\3549610fa37bd3b1175ba8d92febb755\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\0ba45ba7d04b1e4b383cbfe6c45c364f\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\fa1b46f7cdd55dc99d1dc1f5335a49e1\AndroidManifest.xml:17:1-28:12
@@ -25,35 +27,37 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\nirwa\.grad
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8908f648cc96ff0eed87aefa9022b900\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\86058c62cecf52aeacd30130eea7cb57\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\77fabb927be4b8be8f378d0b4e77903c\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
 	package
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:4:5-29
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-48:12
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:7:5-64
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:7:5-65
 	android:name
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:7:22-62
 application
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:11:5-47:19
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:9:5-66:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aeee588abf5b2020e9da5b1801176030\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aeee588abf5b2020e9da5b1801176030\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:25:5-29:19
@@ -95,60 +99,88 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\nirwa\.gradle\c
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\77fabb927be4b8be8f378d0b4e77903c\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\77fabb927be4b8be8f378d0b4e77903c\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:12:9-41
 	tools:ignore
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:17:9-48
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:15:9-48
 	android:icon
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:14:9-40
 activity#project.BE.ocr.splashscreen
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:20:9-27:20
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:20:19-47
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:25:27-74
-activity#project.BE.ocr.MainActivity
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:29:9-35:20
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:21:27-74
+activity#project.BE.ocr.StartActivity
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:24:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:25:13-29:29
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:33:17-76
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:28:17-76
 	android:name
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:33:27-73
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:28:27-73
+activity#project.BE.ocr.MainActivity
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:31:9-37:20
+	android:name
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:31:19-47
 activity#project.BE.ocr.Main2Activity
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:37:9-43:20
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:38:9-44:20
 	android:name
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:37:19-48
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:38:19-48
+activity#project.BE.ocr.Hindi_MainActivity
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:name
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:45:19-53
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:44:9-46:35
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:53:9-55:35
 	android:value
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:46:13-32
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:55:13-32
 	android:name
-		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:45:13-70
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:54:13-70
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:57:9-65:20
+	android:grantUriPermissions
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:61:13-47
+	android:authorities
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:59:13-67
+	android:exported
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:58:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:62:13-64:54
+	android:resource
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:64:17-51
+	android:name
+		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml:63:17-67
 uses-sdk
 INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aeee588abf5b2020e9da5b1801176030\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aeee588abf5b2020e9da5b1801176030\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1248818963987f5a0497f41f275c5775\AndroidManifest.xml:21:5-23:78
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\3f10b470b9282be7e524dfe33e9fa1aa\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\3f10b470b9282be7e524dfe33e9fa1aa\AndroidManifest.xml:5:5-44
+MERGED from [com.rmtheis:tess-two:9.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\tess-two-9.0.0.aar\ddf88a542fce7e4c910f590f63e9b105\AndroidManifest.xml:22:5-24:41
+MERGED from [com.rmtheis:tess-two:9.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\tess-two-9.0.0.aar\ddf88a542fce7e4c910f590f63e9b105\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\3549610fa37bd3b1175ba8d92febb755\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\3549610fa37bd3b1175ba8d92febb755\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\0ba45ba7d04b1e4b383cbfe6c45c364f\AndroidManifest.xml:20:5-44
@@ -189,7 +221,7 @@ INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\Andro
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\fc06d321266a2aa5fb44d4bd56506ec5\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\77fabb927be4b8be8f378d0b4e77903c\AndroidManifest.xml:22:9-38
+		ADDED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\nirwa\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aeee588abf5b2020e9da5b1801176030\AndroidManifest.xml:7:9-38
 	android:minSdkVersion
 		INJECTED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\nirwa\AndroidStudioProjects\Textractor\app\src\main\AndroidManifest.xml

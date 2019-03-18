@@ -9,10 +9,12 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.util.DisplayMetrics;
@@ -21,25 +23,32 @@ import android.util.SparseArray;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_GALLERY = 0;
     private static final int REQUEST_CAMERA = 1;
     private static final int MY_PERMISSIONS_REQUESTS = 0;
+
+    String currentPhotoPath;
+
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
@@ -85,6 +94,24 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+    private File createImageFile() throws IOException {
+        // Create an image file name
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        String imageFileName = "JPEG_" + timeStamp + "_";
+        File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+        File image = File.createTempFile(
+                imageFileName,  /* prefix */
+                ".jpg",         /* suffix */
+                storageDir      /* directory */
+        );
+
+        // Save a file: path for use with ACTION_VIEW intents
+        currentPhotoPath = image.getAbsolutePath();
+        return image;
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -105,20 +132,30 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.take_a_photo).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String filename = System.currentTimeMillis() + ".jpg";
 
-              /*  ContentValues values = new ContentValues();
-                values.put(MediaStore.Images.Media.TITLE, filename);
-                values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg");
-                imageUri = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
-                */
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                // Ensure that there's a camera activity to handle the intent
+                if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                    // Create the File where the photo should go
+                    File photoFile = null;
+                    try {
+                        photoFile = createImageFile();
+                    } catch (IOException ex) {
+                        // Error occurred while creating the File
 
-                Intent intent = new Intent();
-                intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
-                intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
-                startActivityForResult(intent, REQUEST_CAMERA);
+                    }
+                    // Continue only if the File was successfully created
+                    if (photoFile != null) {
+                        Uri photoURI = (Uri) FileProvider.getUriForFile(MainActivity.this,
+                                "com.example.android.fileprovider",
+                                photoFile);
+                        takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                        startActivityForResult(takePictureIntent, REQUEST_CAMERA);
+                    }
+                }
             }
         });
+
 
 //        detectedTextView = (TextView) findViewById(R.id.detected_text);
         Log.i(TAG, "here at 1st place ");
@@ -203,6 +240,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
@@ -210,9 +249,16 @@ public class MainActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK) {
 //                    inspect(data.getData());
                     ImageView imageveew=(ImageView) findViewById(R.id.image_viewer);
-                    imageveew.setScaleType(ImageView.ScaleType.CENTER_CROP);
-                    Uri selectedImage = data.getData();
+                    imageveew.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+                    final Uri selectedImage = data.getData();
                     imageveew.setImageURI(selectedImage);
+
+                    findViewById(R.id.detect_button).setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            inspect(selectedImage);
+                        }
+                    });
 
                 }
                 break;
@@ -220,12 +266,38 @@ public class MainActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK) {
 
 //                        inspect(imageUri);
-                        ImageView imageveew=(ImageView) findViewById(R.id.image_viewer);
-                        Uri selectedImage = data.getData();
 
-//                        imageUri = data.getData();
-                        imageveew.setImageURI(selectedImage);
+            ImageView imageveew=(ImageView) findViewById(R.id.image_viewer);
 
+
+    // Get the dimensions of the View
+    int targetW = imageveew.getWidth();
+    int targetH = imageveew.getHeight();
+
+    // Get the dimensions of the bitmap
+    BitmapFactory.Options bmOptions = new BitmapFactory.Options();
+    bmOptions.inJustDecodeBounds = true;
+    BitmapFactory.decodeFile(currentPhotoPath, bmOptions);
+    int photoW = bmOptions.outWidth;
+    int photoH = bmOptions.outHeight;
+
+    // Determine how much to scale down the image
+    int scaleFactor = Math.min(photoW/targetW, photoH/targetH);
+
+    // Decode the image file into a Bitmap sized to fill the View
+    bmOptions.inJustDecodeBounds = false;
+    bmOptions.inSampleSize = scaleFactor;
+    bmOptions.inPurgeable = true;
+
+    final Bitmap bitmap = BitmapFactory.decodeFile(currentPhotoPath, bmOptions);
+    imageveew.setImageBitmap(bitmap);
+
+                    findViewById(R.id.detect_button).setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            inspectFromBitmap(bitmap);
+                        }
+                    });
                 }
                 break;
             default:
@@ -233,4 +305,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
+
+
+
 }
