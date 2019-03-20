@@ -1,10 +1,12 @@
 package project.BE.ocr;
 
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,11 +19,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Hindi_MainActivity extends AppCompatActivity {
 
     Bitmap image;
     private TessBaseAPI mTess;
+    public String FilenameH;
     String datapath = "";
 
     @Override
@@ -49,10 +54,18 @@ public class Hindi_MainActivity extends AppCompatActivity {
         String OCRresult = null;
         mTess.setImage(image);
         OCRresult = mTess.getUTF8Text();
-        Toast.makeText(getBaseContext(),OCRresult, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getBaseContext(),OCRresult, Toast.LENGTH_SHORT).show();
 
-        TextView OCRTextView = (TextView) findViewById(R.id.OCRTextView);
-        OCRTextView.setText(OCRresult);
+      //  TextView OCRTextView = (TextView) findViewById(R.id.OCRTextView);
+       // OCRTextView.setText(OCRresult);
+
+      //  Log.i(TAG, "here at 2nd");
+        String timeStampnew = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        FilenameH = timeStampnew + ".txt";
+        Intent intent = new Intent(this,Main2Activity.class);
+        intent.putExtra("data", (CharSequence) OCRresult);
+        intent.putExtra("filename",FilenameH);
+        startActivity(intent);
     }
 
     private void checkFile(File dir) {

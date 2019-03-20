@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int MY_PERMISSIONS_REQUESTS = 0;
 
     String currentPhotoPath;
-
+    public String Filename;
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         // Create an image file name
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = "JPEG_" + timeStamp + "_";
+        Filename = timeStamp + ".txt";
         File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
         File image = File.createTempFile(
                 imageFileName,  /* prefix */
@@ -199,11 +200,12 @@ public class MainActivity extends AppCompatActivity {
                     detectedText.append("\n");
                 }
             }
-
+            String timeStampnew = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+            Filename = timeStampnew + ".txt";
             Log.i(TAG, "here at 2nd");
              Intent intent = new Intent(this,Main2Activity.class);
             intent.putExtra("data", (CharSequence) detectedText);
-
+            intent.putExtra("filename",Filename);
             startActivity(intent);
 
 //            detectedTextView.setText(detectedText);

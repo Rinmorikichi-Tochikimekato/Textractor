@@ -842,8 +842,6 @@ id ImageContainer
 id META
 id Notifications
 id OCRButtonContainer
-id OCRTextContainer
-id OCRTextView
 id OCRbutton
 id SHIFT
 id SYM
@@ -885,6 +883,7 @@ id bottom
 id buttonPanel
 id button_hindi
 id button_latin
+id button_saving
 id cancel_action
 id center
 id center_horizontal
