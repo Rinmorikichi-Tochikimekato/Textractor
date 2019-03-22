@@ -3,19 +3,23 @@ package project.BE.ocr;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.os.AsyncTask;
+import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.content.ContentValues;
-import android.content.Intent;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.cloud.translate.Translate;
+import com.google.cloud.translate.TranslateOptions;
+import com.google.cloud.translate.Translation;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -29,8 +33,10 @@ public class Main2Activity extends AppCompatActivity {
     private TextView detectedTextViewe;
     private static final int MY_PERMISSIONS_REQUESTS = 0;
     private static final String TAG2 = Main2Activity.class.getSimpleName();
+    private static final String API_KEY = "AIzaSyD5mwCRzfkx2cgGwXb8M_jEp3SkIUpDIjs";
 
-
+    private static final String TAG3 = Main2Activity.class.getSimpleName();
+    private static final String TAG4 = Main2Activity.class.getSimpleName();
     public void onRequestPermissionsResult(int requestCode,
                                            @NonNull String permissions[], @NonNull int[] grantResults) {
         switch (requestCode) {
@@ -111,9 +117,44 @@ public class Main2Activity extends AppCompatActivity {
 
 
                }
-
            }
        });
+
+               findViewById(R.id.button_translate).setOnClickListener(new View.OnClickListener() {
+                   @Override
+                   public void onClick(View view) {
+
+                       final Handler textViewHandler = new Handler();
+                       Log.i(TAG3, "here after translation");
+
+                       new AsyncTask<Void, Void, Void>() {
+                           @Override
+                           protected Void doInBackground(Void... params) {
+                               TranslateOptions options = TranslateOptions.newBuilder()
+                                       .setApiKey(API_KEY)
+                                       .build();
+                               Translate translate = options.getService();
+                               final Translation translation =
+                                       translate.translate(musi,
+                                               Translate.TranslateOption.targetLanguage("hi"));
+
+                               textViewHandler.post(new Runnable() {
+                                   @Override
+                                   public void run() {
+                                       if (detectedTextViewe != null) {
+                                           Log.i(TAG4, "here at display");
+                                           detectedTextViewe.setText(translation.getTranslatedText());
+                                       }
+                                   }
+                               });
+                               return null;
+                           }
+                       }.execute();
+                   }
+
+               });
+
+
 
 
 

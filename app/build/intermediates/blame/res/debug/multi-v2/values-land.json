@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\fc06d321266a2aa5fb44d4bd56506ec5\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\15d347287f83341be048e93045fb0178\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\85d3bcff2f539e79f3a521335cde817a\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

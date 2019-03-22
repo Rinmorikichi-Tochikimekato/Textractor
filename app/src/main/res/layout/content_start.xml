@@ -48,6 +48,20 @@
         android:text="latin Based Ocr"
         android:textSize="24sp"
         android:textStyle="bold" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="42dp"
+        android:clickable="true"
+        app:srcCompat="?attr/colorAccent"
+        tools:srcCompat="@android:drawable/btn_dropdown" />
 </RelativeLayout>
 
 

@@ -3,13 +3,12 @@ package project.BE.ocr;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.ImageView;
 
 import com.googlecode.tesseract.android.TessBaseAPI;
 
@@ -24,18 +23,32 @@ import java.util.Date;
 
 public class Hindi_MainActivity extends AppCompatActivity {
 
-    Bitmap image;
+   Bitmap image;
     private TessBaseAPI mTess;
     public String FilenameH;
     String datapath = "";
-
+    private static final int REQUEST_GALLERY = 0;
+    Uri selectedImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hindi__main);
+        ImageView img = findViewById(R.id.imageView);
+        findViewById(R.id.button_chooseH).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setType("image/*");
+                intent.setAction(Intent.ACTION_GET_CONTENT);
+                startActivityForResult(intent, REQUEST_GALLERY);
+            }
+        });
+
+        image=((BitmapDrawable)img.getDrawable()).getBitmap();
 
         //init image
-        image = BitmapFactory.decodeResource(getResources(), R.drawable.sample);
+        //image = BitmapFactory.decodeResource(getResources(), R.drawable.sample);
+
 
         //initialize Tesseract API
 //        String language = "eng";
@@ -83,6 +96,24 @@ public class Hindi_MainActivity extends AppCompatActivity {
         }
     }
 
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch (requestCode) {
+            case REQUEST_GALLERY:
+                if (resultCode == RESULT_OK) {
+//                    inspect(data.getData());
+                    ImageView imageveew=(ImageView) findViewById(R.id.imageView);
+                    imageveew.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+                    selectedImage = data.getData();
+                    imageveew.setImageURI(selectedImage);
+
+                }
+                break;
+            default:
+                super.onActivityResult(requestCode, resultCode, data);
+                break;
+        }
+    }
     private void copyFiles() {
         try {
             String filepath = datapath + "/tessdata/hin.traineddata";

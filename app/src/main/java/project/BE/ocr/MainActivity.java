@@ -2,7 +2,6 @@ package project.BE.ocr;
 
 import android.Manifest;
 import android.app.AlertDialog;
-import android.content.ContentValues;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -16,7 +15,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
-import android.text.method.ScrollingMovementMethod;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.SparseArray;
@@ -24,11 +22,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
-
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -202,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
             }
             String timeStampnew = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
             Filename = timeStampnew + ".txt";
-            Log.i(TAG, "here at 2nd");
+
              Intent intent = new Intent(this,Main2Activity.class);
             intent.putExtra("data", (CharSequence) detectedText);
             intent.putExtra("filename",Filename);

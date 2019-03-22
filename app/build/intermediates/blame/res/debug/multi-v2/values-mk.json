@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\nirwa\\AndroidStudioProjects\\Textractor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\af2b1c0a49da7b66b64220c3a5b199e2\\res\\values-mk\\values.xml",
+                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\1db746620818afb0ff61e72c1064898d\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "195",
+                        "endOffsets": "442"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "3021",
+                        "endColumns": "195",
+                        "endOffsets": "3212"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\b3a2649aafa1ab1d48ec4c73225b374a\\res\\values-mk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\1248818963987f5a0497f41f275c5775\\res\\values-mk\\values-mk.xml",
+                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\85d3bcff2f539e79f3a521335cde817a\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "105,213,336,440,548,634,739,858,941,1023,1110,1216,1323,1424,1531,1642,1746,4576,4660",
                         "endColumns": "107,122,103,107,85,104,118,82,81,86,105,106,100,106,110,103,97,83,100",
                         "endOffsets": "208,331,435,543,629,734,853,936,1018,1105,1211,1318,1419,1526,1637,1741,1839,4655,4756"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\nirwa\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\11f8a42b266288f42d1a9c508541fc02\\res\\values-mk\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "195",
-                        "endOffsets": "442"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "3021",
-                        "endColumns": "195",
-                        "endOffsets": "3212"
                     }
                 }
             ]
