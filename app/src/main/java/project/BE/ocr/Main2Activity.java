@@ -14,6 +14,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,7 +31,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main2Activity extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private TextView detectedTextViewe;
     private static final int MY_PERMISSIONS_REQUESTS = 0;
@@ -54,6 +57,7 @@ public class Main2Activity extends AppCompatActivity {
         }
     }
 
+    String get_list;
     private void requestPermissions()
     {
         List<String> requiredPermissions = new ArrayList<>();
@@ -120,6 +124,18 @@ public class Main2Activity extends AppCompatActivity {
            }
        });
 
+
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+// Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.Languages, android.R.layout.simple_spinner_item);
+// Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
+
+
                findViewById(R.id.button_translate).setOnClickListener(new View.OnClickListener() {
                    @Override
                    public void onClick(View view) {
@@ -136,7 +152,7 @@ public class Main2Activity extends AppCompatActivity {
                                Translate translate = options.getService();
                                final Translation translation =
                                        translate.translate(musi,
-                                               Translate.TranslateOption.targetLanguage("hi"));
+                                               Translate.TranslateOption.targetLanguage(get_list));
 
                                textViewHandler.post(new Runnable() {
                                    @Override
@@ -157,6 +173,17 @@ public class Main2Activity extends AppCompatActivity {
 
 
 
+
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+       get_list = adapterView.getItemAtPosition(i).toString();
+      Toast.makeText(adapterView.getContext(),get_list,Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
 
     }
 }

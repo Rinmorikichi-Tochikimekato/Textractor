@@ -4,4 +4,11 @@
     <string name="take_a_photo">Take a photo</string>
     <string name="my_love_text">I love you</string>
     <string name="title_activity_start">StartActivity</string>
+
+    <string-array name="Languages">
+        <item>en</item>
+        <item>hi</item>
+        <item>Mr</item>
+
+    </string-array>
 </resources>
