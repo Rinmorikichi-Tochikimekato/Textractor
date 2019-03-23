@@ -7,6 +7,7 @@ android {
         minSdkVersion 15
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -38,6 +39,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'junit:junit:4.12'
     implementation 'com.rmtheis:tess-two:9.0.0'
+    implementation 'com.android.support:multidex:1.0.3'
     implementation('com.google.apis:google-api-services-translate:v2-rev47-1.22.0') {
         exclude group: 'com.google.guava'
     }

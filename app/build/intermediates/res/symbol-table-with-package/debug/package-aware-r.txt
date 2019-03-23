@@ -1057,6 +1057,7 @@ drawable image_view_border
 drawable img_tamil
 drawable img_test2
 drawable lang_dropdown
+drawable logo
 drawable mainbackground
 drawable mainbackground2
 drawable mtrl_snackbar_background
@@ -1088,8 +1089,6 @@ id FUNCTION
 id ImageContainer
 id META
 id Notifications
-id OCRButtonContainer
-id OCRbutton
 id SHIFT
 id SYM
 id SharedWithMe
@@ -1131,6 +1130,7 @@ id buttonPanel
 id button_chooseH
 id button_hindi
 id button_latin
+id button_runOCR
 id button_saving
 id button_translate
 id cancel_action

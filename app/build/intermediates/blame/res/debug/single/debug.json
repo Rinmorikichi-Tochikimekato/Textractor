@@ -340,12 +340,12 @@
         "source": "D:\\Textractor\\app\\src\\main\\res\\drawable\\test_image.png"
     },
     {
-        "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
-        "source": "C:\\Users\\Omkar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f6d7d18ee2c87a47ef689640f1832c05\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_start.xml.flat",
         "source": "D:\\Textractor\\app\\src\\main\\res\\layout\\content_start.xml"
+    },
+    {
+        "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
+        "source": "C:\\Users\\Omkar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f6d7d18ee2c87a47ef689640f1832c05\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
@@ -376,12 +376,12 @@
         "source": "C:\\Users\\Omkar\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\5dd348d24d0a7a728cecd06018c0395b\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
-        "source": "C:\\Users\\Omkar\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\5dd348d24d0a7a728cecd06018c0395b\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
-    },
-    {
         "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Omkar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\f6d7d18ee2c87a47ef689640f1832c05\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
+        "source": "C:\\Users\\Omkar\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\5dd348d24d0a7a728cecd06018c0395b\\res\\color\\mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
         "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_hindi__main.xml.flat",
@@ -1010,6 +1010,10 @@
     {
         "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\Omkar\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\017a3e30ea39083a59c44d586f9223f9\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "D:\\Textractor\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
         "merged": "D:\\Textractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
