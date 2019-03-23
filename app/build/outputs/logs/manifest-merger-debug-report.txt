@@ -115,7 +115,7 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Omkar\.gra
 	tools:ignore
 		ADDED from D:\Textractor\app\src\main\AndroidManifest.xml:15:9-48
 	android:icon
-		ADDED from D:\Textractor\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from D:\Textractor\app\src\main\AndroidManifest.xml:11:9-38
 	android:allowBackup
 		ADDED from D:\Textractor\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme

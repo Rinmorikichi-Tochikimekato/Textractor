@@ -1053,6 +1053,7 @@ drawable googleg_standard_color_18
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable icon
 drawable image_view_border
 drawable img_tamil
 drawable img_test2

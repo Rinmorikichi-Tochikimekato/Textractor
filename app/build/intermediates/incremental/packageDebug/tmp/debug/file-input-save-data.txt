@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 24 00:49:12 IST 2019
+#Sun Mar 24 01:23:42 IST 2019
 5.base=D\:\\Textractor\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 22.path=tessdata/mar.traineddata
 32.set=NATIVE_RESOURCE
