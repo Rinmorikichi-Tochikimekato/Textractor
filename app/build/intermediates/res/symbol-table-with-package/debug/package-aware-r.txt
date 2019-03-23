@@ -602,6 +602,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -715,6 +716,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -1051,8 +1053,12 @@ drawable googleg_standard_color_18
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable image_view_border
 drawable img_tamil
 drawable img_test2
+drawable lang_dropdown
+drawable mainbackground
+drawable mainbackground2
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1073,6 +1079,8 @@ drawable sample2
 drawable test_image
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable transparent_bg_bordered
+drawable transparent_bg_bordered_button
 id ALT
 id Alldocs
 id CTRL
@@ -1164,7 +1172,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fill
 id fill_horizontal
 id fill_vertical

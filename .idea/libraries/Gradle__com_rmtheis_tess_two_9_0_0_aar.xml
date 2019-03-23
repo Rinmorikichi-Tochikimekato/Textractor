@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.rmtheis:tess-two:9.0.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tess-two-9.0.0.aar/bea8b0d1b788012151dd7b428432b277/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tess-two-9.0.0.aar/157a8ace224da8fe8df0e5b3a9a39617/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tess-two-9.0.0.aar/bea8b0d1b788012151dd7b428432b277/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tess-two-9.0.0.aar/bea8b0d1b788012151dd7b428432b277/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tess-two-9.0.0.aar/157a8ace224da8fe8df0e5b3a9a39617/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tess-two-9.0.0.aar/157a8ace224da8fe8df0e5b3a9a39617/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
